@@ -13,7 +13,7 @@ module.exports = [
     {text: '💖收费', link: '/pages/fb2b9d/'},
     {
         text: '🌻生态', items: [
-            {text: '开源社区',link: '/pages/1a819d/'}
+            {text: '开源社区',link: '/pages/1a829d/'}
         ]
     },
     {
@@ -32,8 +32,8 @@ module.exports = [
             {text: '健身计划一键生成系统', link: 'https://gitee.com/easy-es/fit-plan'}
         ]
     },
-    {text: 'Gitee', link: 'https://gitee.com/dromara/easy-es'},
-    {text: 'Github', link: 'https://github.com/dromara/easy-es'},
+    {text: 'Gitee', link: 'https://gitee.com/easy-es/doc-apis'},
+    {text: 'Github', link: 'https://github.com/xpc1024/doc-apis'},
     {
         text: '💫Language', items: [
             {text: '简体中文', link: 'https://www.doc-apis.com', target: '_self', rel: ''},

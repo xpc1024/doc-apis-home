@@ -14,19 +14,19 @@ bannerBg: /img/back.png # auto => 网格纹背景(有bodyBgImg时无背景)，�
 defaultMode: light
 features: # 可选的
   - title: 零侵入
-    details: 无需增加任何代码或注解,完全透明无感,零学习成本
+    details: 无需增加任何代码或注解,完全透明无感,甚至无需打包进项目
   - title: 零配置
-    details: 无需任何配置,引入即用,甚至无需打包进项目
+    details: 无需任何配置,开箱即用,零学习成本
   - title: 功能强大
-    details: 全自动生成多端多格式接口文档,并可在线调试
+    details: 全自动生成多端多格式多语种接口文档,并可在线调试
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 
 postList: none
 notices: # 可选的
     - id: doc-apis
-      title: 🚀 doc-apis v0.9.0 发布！
-      content: '<div><ul><li>2024-06</li><li>v0.9.0</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
+      title: 🚀 doc-apis v0.9.1 发布！
+      content: '<div><ul><li>2024-07</li><li>v0.9.1</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">查看详情</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>
@@ -193,6 +193,11 @@ compile group: 'com.docapis', name: 'doc-apis-starter', version: 'Latest Version
 
 ## 🧲友情链接
 <div>
+  <span style="width: 150px;text-align: left">
+      <a href="https://www.easy-es.cn/" target="_blank">
+          <img :src="$withBase('/img/external/easy-es.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
   <span style="width: 150px;flex:1;text-align: left">
       <a href="https://gitee.com" target="_blank">
           <img :src="$withBase('/img/external/gitee-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
@@ -201,11 +206,6 @@ compile group: 'com.docapis', name: 'doc-apis-starter', version: 'Latest Version
   <span style="width: 150px;text-align: left">
       <a href="https://www.oschina.net" target="_blank">
           <img :src="$withBase('/img/external/oschina-logo.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
-      </a>
-  </span>
-  <span style="width: 150px;text-align: left">
-      <a href="https://www.easy-es.cn/" target="_blank">
-          <img :src="$withBase('/img/link/easy-es.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
   <span style="width: 150px;text-align: left">
