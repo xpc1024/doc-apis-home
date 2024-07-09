@@ -22,7 +22,7 @@ const advHtml = require('./adv.js')
 
 module.exports = {
   // // 赞助商广告
-  // sidebarT: advHtml(),
+  sidebarT: advHtml()
   // // 万维广告
   // pageT: `
   // <div class="wwads-cn wwads-horizontal page-wwads" data-id="174"></div>
@@ -48,27 +48,5 @@ module.exports = {
   //     }
   // </style>
   // `,
-  // windowRB: `
-  //   <div class="wwads-cn wwads-vertical windowRB" data-id="136" style="max-width:160px;
-  //   min-width: auto;min-height:auto;"></div>
-  //   <style>
-  //     .windowRB{ padding: 0;}
-  //     .windowRB .wwads-img{margin-top: 10px;}
-  //     .windowRB .wwads-content{margin: 0 10px 10px 10px;}
-  //     .custom-html-window-rb .close-but{
-  //       display: none;
-  //     }
-  //   </style>
-  // `
+
 }
-
-
-// module.exports = {
-//   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-//   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-// }

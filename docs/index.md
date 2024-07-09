@@ -39,15 +39,15 @@ notices: # 可选的
 ```yaml
 - name: Easy-Es
   desc: 傻瓜级Elasticsearch 搜索引擎ORM框架...
-  avatar: /img/sponsor/easy-es.jpg
+  avatar: /img/sponsor/easy-es-logo.jpg
   link: https://www.easy-es.cn/
   bgColor: '#25c37d'
   textColor: '#FFFFFF'
 
-- name: Fast Request
-  desc: IDEA版Postman, 便捷, 易用, 为简化API调试而生...
-  avatar: /img/sponsor/fastRequest-logo.svg
-  link: https://api-buddy.cn/
+- name: 明道云零代码平台
+  desc: 快速响应业务需求, 从"IT背锅侠"变成"IT英雄"...
+  avatar: /img/sponsor/mingdao-logo.jpg
+  link: https://www.mingdao.com?s=utm_206&utm_source=doc-apis&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=%E6%B3%A8%E5%86%8C%E4%BD%93%E9%AA%8C
   bgColor: '#25c37d'
   textColor: '#FFFFFF'
 
@@ -121,7 +121,7 @@ notices: # 可选的
 <br/>
 <br/>
 
-## ✨最新版本 Latest Version: [![Maven Central](https://img.shields.io/github/v/release/xpc1024/easy-es?include_prereleases&logo=xpc&style=plastic)](https://search.maven.org/search?q=g:io.github.xpc1024%20a:easy-*)
+## ✨最新版本 Latest Version: [![Maven Central](https://img.shields.io/github/v/release/xpc1024/doc-apis?include_prereleases&logo=xpc&style=plastic)](https://search.maven.org/search?q=g:com.doc-apis)
 
 **Maven:**
 
@@ -233,3 +233,4 @@ compile group: 'com.docapis', name: 'doc-apis-starter', version: 'Latest Version
     &:hover
         background-color lighten(#68c400, 10%)
 </style>
+
