@@ -154,19 +154,7 @@ compile group: 'com.docapis', name: 'doc-apis-starter', version: 'Latest Version
 :::
 
 <br/>
-<br/>
 
-## 安全 
-<a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
-
-我们已接入OSCS墨菲安全扫描源码中未被扫描出任何风险项，我们采用零侵入的设计理念,引入后并不会污染原项目,并且所有源码均已公开,是否有风险您一看便知。
-<br/>
-
-<a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img class="no-zoom" src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=large"/></a>
-
-<br/>
-
-<br/>
 
 ## 🏡代码托管
 
