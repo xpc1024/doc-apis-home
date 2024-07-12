@@ -43,6 +43,8 @@ module.exports = {
       `
       #dify-chatbot-bubble-button {
         background-color: #25c37d !important;
+        width:35px !important; 
+        height:35px !important; 
       }
       `
     ]
