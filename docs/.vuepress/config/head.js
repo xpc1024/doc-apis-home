@@ -4,7 +4,7 @@ module.exports = [
   ['meta', { name: 'keywords', content: 'doc-apis,doc-apis官网,零代码零侵入接口文档自动生成框架'}],
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
 
-  ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
+  // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
   ['script', {async: true, src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
   ['script', {}, `
     // 万维广告“禁止”广告拦截
@@ -55,5 +55,36 @@ module.exports = [
         }
       }, 3000);
     });
-  `]
+  `],
+  // 添加 window.difyChatbotConfig 脚本
+  [
+    'script',
+    {},
+    `
+      window.difyChatbotConfig = {
+        token: '4dk8oM4z8aXmV0B7'
+      }
+      `
+  ],
+  // 添加 dify embed 脚本
+  [
+    'script',
+    {
+      src: "https://udify.app/embed.min.js",
+      id: "4dk8oM4z8aXmV0B7",
+      defer: true
+    }
+  ],
+  // 添加自定义样式
+  [
+    'style',
+    {},
+    `
+      #dify-chatbot-bubble-button {
+        background-color: #25c37d !important;
+        width:35px !important; 
+        height:35px !important; 
+      }
+      `
+  ]
 ];
