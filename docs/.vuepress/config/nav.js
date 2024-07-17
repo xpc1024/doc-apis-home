@@ -28,7 +28,7 @@ module.exports = [
     },
     {
         text: '💞推荐', items: [
-            {text: 'Easy-Es', link: 'https://www.eays-es.cn/'},
+            {text: 'Easy-Es', link: 'https://www.easy-es.cn/'},
             {text: '健身计划一键生成系统', link: 'https://gitee.com/easy-es/fit-plan'}
         ]
     },
