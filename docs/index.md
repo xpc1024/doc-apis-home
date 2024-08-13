@@ -49,10 +49,10 @@ notices: # 可选的
   bgColor: '#25c37d'
   textColor: '#FFFFFF'
 
-- name: AgileBPM
-  desc: 快速、简洁且强大的低代码工作流开发平台...
-  avatar: /img/sponsor/agile-logo.png
-  link: https://www.tongzhouyun.com/
+- name: FastBee
+  desc: 简单易用更适合中小企业和个人学习的物联网平台...
+  avatar: /img/sponsor/fxwl-logo.gif
+  link: https://fastbee.cn/
   bgColor: '#25c37d'
   textColor: '#FFFFFF'
 
@@ -231,6 +231,11 @@ compile group: 'com.doc-apis', name: 'doc-apis-core', version: 'Latest Version'
   <span style="width: 150px;text-align: left">
       <a href="https://www.mongoplus.com/" target="_blank">
           <img :src="$withBase('/img/aizuda/mongo-plus.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://fastbee.cn/" target="_blank">
+          <img :src="$withBase('/img/external/fxwl-friend.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>
